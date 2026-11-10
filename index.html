@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AandA-stores | Quality Food & Toiletries</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="contact-info">
+      <span>📞 0800 123 4567</span>
+      <span>✉️ info@aandastores.com</span>
+      <span>🕘 Mon-Sat: 8AM - 8PM</span>
+    </div>
+    <div>
+      <a href="cart.html" class="cart-link">🛒 Cart <span class="cart-count" id="cart-count">0</span></a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="nav-container">
+      <div class="logo">
+        <img src="images/logo.svg" alt="AandA-stores Logo">
+        <div class="logo-text">AandA-stores</div>
+      </div>
+      <button class="mobile-menu-btn" id="mobile-menu-btn">☰</button>
+      <nav>
+        <ul id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to AandA-stores</h1>
+      <p>Your trusted provision store for quality food items and toiletries at affordable prices.</p>
+      <a href="products.html" class="btn">Shop Now</a>
+      <a href="contact.html" class="btn btn-outline">Visit Us</a>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="categories">
+    <div class="section-header">
+      <h2>Shop by Category</h2>
+      <p>Browse our wide selection of food items and toiletries</p>
+    </div>
+    <div class="category-grid">
+      <div class="category-card" onclick="location.href='products.html?cat=grains'">
+        <img src="images/placeholder.svg" alt="Grains">
+        <h3>Grains & Staples</h3>
+        <p>Rice, flour, semolina, pasta</p>
+      </div>
+      <div class="category-card" onclick="location.href='products.html?cat=canned'">
+        <img src="images/placeholder.svg" alt="Canned Goods">
+        <h3>Canned Goods</h3>
+        <p>Tomatoes, sardines, beans</p>
+      </div>
+      <div class="category-card" onclick="location.href='products.html?cat=beverages'">
+        <img src="images/placeholder.svg" alt="Beverages">
+        <h3>Beverages</h3>
+        <p>Soft drinks, water, malt</p>
+      </div>
+      <div class="category-card" onclick="location.href='products.html?cat=toiletries-soap'">
+        <img src="images/placeholder.svg" alt="Toiletries">
+        <h3>Toiletries</h3>
+        <p>Soap, toothpaste, detergent</p>
+      </div>
+      <div class="category-card" onclick="location.href='products.html?cat=snacks'">
+        <img src="images/placeholder.svg" alt="Snacks">
+        <h3>Snacks & Biscuits</h3>
+        <p>Biscuits, chips, treats</p>
+      </div>
+      <div class="category-card" onclick="location.href='products.html?cat=dairy'">
+        <img src="images/placeholder.svg" alt="Dairy">
+        <h3>Dairy & Eggs</h3>
+        <p>Milk, butter, eggs</p>
+      </div>
+    </div>
+  </section>
+  <!-- Featured Products -->
+  <section class="featured">
+    <div class="section-header">
+      <h2>Featured Products</h2>
+      <p>Popular items our customers love</p>
+    </div>
+    <div class="product-grid" id="featured-grid"></div>
+  </section>
+
+  <!-- Store Info -->
+  <section class="store-info">
+    <div class="info-grid">
+      <div class="info-item">
+        <span class="icon">📍</span>
+        <div>
+          <h3>Visit Our Store</h3>
+          <p>123 Main Street, City Center<br>Lagos, Nigeria</p>
+        </div>
+      </div>
+      <div class="info-item">
+        <span class="icon">📞</span>
+        <div>
+          <h3>Call Us</h3>
+          <p>0800 123 4567<br>0800 987 6543</p>
+        </div>
+      </div>
+      <div class="info-item">
+        <span class="icon">🕘</span>
+        <div>
+          <h3>Opening Hours</h3>
+          <p>Monday - Saturday: 8:00 AM - 8:00 PM<br>Sunday: Closed</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-section">
+        <div class="footer-logo">
+          <img src="images/logo.svg" alt="AandA-stores Logo" style="height: 30px;">
+          <span>AandA-stores</span>
+        </div>
+        <p style="color: #ccc; font-size: 0.9rem;">Your trusted neighborhood provision store offering quality food items and toiletries at affordable prices.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="products.html?cat=grains">Grains & Staples</a></li>
+          <li><a href="products.html?cat=beverages">Beverages</a></li>
+          <li><a href="products.html?cat=snacks">Snacks & Biscuits</a></li>
+          <li><a href="products.html?cat=toiletries-soap">Toiletries</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contact</h4>
+        <ul>
+          <li>📞 0800 123 4567</li>
+          <li>✉️ info@aandastores.com</li>
+          <li>📍 123 Main Street, City Center</li>
+          <li>🕘 Mon-Sat: 8AM - 8PM</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 AandA-stores Provision Store. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const grid = document.getElementById('featured-grid');
+      if (grid) {
+        const featured = products.slice(0, 8);
+        grid.innerHTML = featured.map(product => '<div class="product-card"><div class="product-image"><img src="' + product.image + '" alt="' + product.name + '"></div><div class="product-info"><span class="product-category">' + getCategoryName(product.category) + '</span><h3>' + product.name + '</h3><div class="product-price">\u20a6' + product.price.toLocaleString() + '</div><button class="btn" onclick="addToCart(' + product.id + ')">Add to Cart</button></div></div>').join('');
+      }
+    });
+  </script>
+</body>
+</html>

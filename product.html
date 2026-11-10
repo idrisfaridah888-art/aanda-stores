@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product | AandA-stores</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="contact-info">
+      <span>📞 0800 123 4567</span>
+      <span>✉️ info@aandastores.com</span>
+      <span>🕘 Mon-Sat: 8AM - 8PM</span>
+    </div>
+    <div>
+      <a href="cart.html" class="cart-link">🛒 Cart <span class="cart-count" id="cart-count">0</span></a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="nav-container">
+      <div class="logo">
+        <img src="images/logo.svg" alt="AandA-stores Logo">
+        <div class="logo-text">AandA-stores</div>
+      </div>
+      <button class="mobile-menu-btn" id="mobile-menu-btn">☰</button>
+      <nav>
+        <ul id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Product Detail -->
+  <section class="product-detail">
+    <div class="product-detail-image">
+      <img id="product-image" src="images/placeholder.svg" alt="Product">
+    </div>
+    <div class="product-detail-info">
+      <h1 id="product-name">Product Name</h1>
+      <span class="product-detail-category" id="product-category">Category</span>
+      <div class="product-detail-price" id="product-price">₦0</div>
+      <p class="product-detail-desc" id="product-desc">Product description goes here.</p>
+      <div class="product-detail-actions">
+        <div class="quantity-selector">
+          <label for="product-quantity">Qty:</label>
+          <input type="number" id="product-quantity" value="1" min="1" max="99">
+        </div>
+        <button class="btn" id="add-to-cart-detail">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-section">
+        <div class="footer-logo">
+          <img src="images/logo.svg" alt="AandA-stores Logo" style="height: 30px;">
+          <span>AandA-stores</span>
+        </div>
+        <p style="color: #ccc; font-size: 0.9rem;">Your trusted neighborhood provision store.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contact</h4>
+        <ul>
+          <li>📞 0800 123 4567</li>
+          <li>✉️ info@aandastores.com</li>
+          <li>📍 123 Main Street, City Center</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 AandA-stores Provision Store. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

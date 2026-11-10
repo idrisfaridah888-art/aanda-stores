@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products | AandA-stores</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="contact-info">
+      <span>📞 0800 123 4567</span>
+      <span>✉️ info@aandastores.com</span>
+      <span>🕘 Mon-Sat: 8AM - 8PM</span>
+    </div>
+    <div>
+      <a href="cart.html" class="cart-link">🛒 Cart <span class="cart-count" id="cart-count">0</span></a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="nav-container">
+      <div class="logo">
+        <img src="images/logo.svg" alt="AandA-stores Logo">
+        <div class="logo-text">AandA-stores</div>
+      </div>
+      <button class="mobile-menu-btn" id="mobile-menu-btn">☰</button>
+      <nav>
+        <ul id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html" style="color: var(--primary);">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Title -->
+  <section class="hero" style="height: 30vh; min-height: auto;">
+    <div class="hero-content">
+      <h1>Our Products</h1>
+      <p>Browse our complete catalog of food items and toiletries</p>
+    </div>
+  </section>
+
+  <!-- Filters -->
+  <div class="filters">
+    <input type="text" id="search-input" placeholder="Search products...">
+    <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+      <button class="filter-btn active" data-category="all">All</button>
+      <button class="filter-btn" data-category="grains">Grains</button>
+      <button class="filter-btn" data-category="canned">Canned</button>
+      <button class="filter-btn" data-category="beverages">Beverages</button>
+      <button class="filter-btn" data-category="snacks">Snacks</button>
+      <button class="filter-btn" data-category="dairy">Dairy</button>
+      <button class="filter-btn" data-category="frozen">Frozen</button>
+      <button class="filter-btn" data-category="toiletries-soap">Soaps</button>
+      <button class="filter-btn" data-category="toiletries-oral">Oral Care</button>
+      <button class="filter-btn" data-category="toiletries-cleaning">Cleaning</button>
+      <button class="filter-btn" data-category="toiletries-paper">Paper</button>
+      <button class="filter-btn" data-category="toiletries-personal">Personal</button>
+      <button class="filter-btn" data-category="toiletries-hair">Hair Care</button>
+      <button class="filter-btn" data-category="toiletries-baby">Baby Care</button>
+    </div>
+  </div>
+
+  <!-- Product Grid -->
+  <section class="featured" style="padding-top: 20px;">
+    <div class="product-grid" id="product-grid"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-section">
+        <div class="footer-logo">
+          <img src="images/logo.svg" alt="AandA-stores Logo" style="height: 30px;">
+          <span>AandA-stores</span>
+        </div>
+        <p style="color: #ccc; font-size: 0.9rem;">Your trusted neighborhood provision store.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contact</h4>
+        <ul>
+          <li>📞 0800 123 4567</li>
+          <li>✉️ info@aandastores.com</li>
+          <li>📍 123 Main Street, City Center</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 AandA-stores Provision Store. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
